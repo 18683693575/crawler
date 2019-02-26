@@ -31,4 +31,9 @@ public class IndexController {
     public String getHost1(){
         return host;
     }
+
+    @RequestMapping("/getHost2")
+    public String getHost2(){
+        return host;
+    }
 }
