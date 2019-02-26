@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-    @Value("${server.port:80}")
+    @Value("${server.port:8031}")
     private String host;
 
     @RequestMapping("/getIndex")
