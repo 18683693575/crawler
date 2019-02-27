@@ -37,8 +37,4 @@ public class IndexController {
         return host;
     }
 
-    @RequestMapping("/getHost4")
-    public String getHost4() {
-        return host;
-    }
 }
