@@ -18,23 +18,27 @@ public class IndexController {
     private String host;
 
     @RequestMapping("/getIndex")
-    public String getIndex(){
+    public String getIndex() {
         return "getIndex";
     }
 
     @RequestMapping("/getHost")
-    public String getHost(){
+    public String getHost() {
         return host;
     }
 
     @RequestMapping("/getHost1")
-    public String getHost1(){
+    public String getHost1() {
         return host;
     }
 
     @RequestMapping("/getHost2")
-    public String getHost2(){
+    public String getHost2() {
         return host;
     }
 
+    @RequestMapping("/getHost4")
+    public String getHost4() {
+        return host;
+    }
 }
