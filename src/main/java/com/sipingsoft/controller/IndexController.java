@@ -42,4 +42,9 @@ public class IndexController {
         return host;
     }
 
+    @RequestMapping("/getJava")
+    public String getJava() {
+        return "java";
+    }
+
 }
